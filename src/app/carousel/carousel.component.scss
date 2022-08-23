@@ -1,0 +1,87 @@
+* {
+    margin-bottom: 50px;
+}
+
+.picsum-img-wrapper img {
+    width: 460px;
+    height: 400px;
+    z-index: 0;
+    border-radius: 10px;
+    overflow-x: hidden;
+    margin-left: 30px;
+    box-shadow: 6px 6px 9px gray;
+}
+
+body {
+    overflow: hidden;
+}
+
+//------animation test-slide
+.carousel-caption {
+    margin-right: 0;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    font-weight: bold;
+    font-size: 37px;
+    color: black;
+    animation: slis 7s alternate infinite;
+}
+
+.carousel-caption h3 {
+    padding: 0;
+}
+
+.carousel-caption p {
+    margin: 0 100px 100px 0;
+    padding: 0;
+}
+
+@keyframes slis {
+    from {
+        color: rgb(255, 255, 255);
+        transition: 2s ease-in-out;
+    }
+    to {
+        color: rgb(0, 0, 0);
+        transition: 2s ease-in-out;
+    }
+}
+
+
+/*
+<div class="btn-group" role="group" aria-label="Carousel toggle controls">
+    <button type="button" (click)="showNavigationArrows = !showNavigationArrows" class=" btn-sm">MODE 1 SLIDE</button>
+    <button type="button" (click)="showNavigationIndicators = !showNavigationIndicators" class="btn-sm1">MODE 2 SLIDE</button>
+</div>
+
+
+
+
+.btn-group button {
+    margin: 0 0 100px 300px;
+    border: 7px solid orangered;
+    height: 100px;
+    width: 400px;
+    font-size: 40px;
+    padding-right: 65px;
+    text-align: center;
+    color: rgb(253, 253, 253);
+    background-color: black;
+    transition: 1.2s ease-in-out;
+    border-top-left-radius: 15%;
+    border-bottom-right-radius: 15%;
+}
+
+.btn-group button:hover {
+    border: 7px solid rgb(0, 0, 0);
+    height: 100px;
+    width: 400px;
+    color: rgb(253, 253, 253);
+    background-color: orangered;
+    transition: 1.2s ease-in-out;
+}
+
+.btn-group .btn-sm1 {
+    margin-left: 20px;
+}
+*/

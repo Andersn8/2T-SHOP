@@ -1,0 +1,52 @@
+<body>
+    <section id="card1" *ngFor="let catego of categor">
+        <div class="title">
+            <h1>welcome in {{catego.title}}</h1>
+        </div>
+        <div class="container">
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img [src]="catego.item[0].images">
+                        <h3>{{catego.item[0].names}}</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>{{catego.item[0].descrips}}</p>
+                        <a href="#">{{catego.item[0].reads}}</a>
+                    </div>
+                </div>
+            </div>
+            <!------------------------------------------------------>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img [src]="catego.item[1].images">
+                        <h3>{{catego.item[1].names}}</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>{{catego.item[1].descrips}}</p>
+                        <a href="#">{{catego.item[1].reads}}</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="face face1">
+                    <div class="content">
+                        <img [src]="catego.item[2].images">
+                        <h3>{{catego.item[2].names}}</h3>
+                    </div>
+                </div>
+                <div class="face face2">
+                    <div class="content">
+                        <p>{{catego.item[2].descrips}}</p>
+                        <a href="#">{{catego.item[2].reads}}</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>

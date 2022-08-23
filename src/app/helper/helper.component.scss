@@ -1,0 +1,158 @@
+#help {
+    width: 100%;
+    height: 2500px;
+    background-color: rgba(0, 0, 0, 0.808);
+    position: relative;
+}
+
+#help .imm {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 1300px;
+    animation: view 2s infinite alternate-reverse;
+    transition: 0.3s ease-in;
+}
+
+#help .immm {
+    width: 398px;
+    height: 182px;
+    position: absolute;
+    top: 656px;
+    left: 943px;
+    z-index: -5;
+}
+
+@keyframes view {
+    0% {
+        opacity: 1;
+        transition: 0.3s ease-in;
+    }
+    20% {
+        opacity: 0.8;
+        transition: 0.3s ease-in;
+    }
+    40% {
+        opacity: 0.6;
+        transition: 0.3s ease-in;
+    }
+    60% {
+        opacity: 0.4;
+        transition: 0.3s ease-in;
+    }
+    80% {
+        opacity: 0.2;
+        transition: 0.3s ease-in;
+    }
+    100% {
+        opacity: 0;
+        transition: 0.3s ease-in;
+    }
+}
+
+#help .div1 {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    padding-right: 40px;
+}
+
+#help .div1 img {
+    width: 500px;
+    height: 400px;
+    float: right;
+    transform: matrix3d(-30deg);
+    padding: 40px 0 0 0;
+}
+
+#help .div1 h3 {
+    width: 600px;
+    height: 300px;
+    float: left;
+    font-family: unset;
+    font-size: 45px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 140px 0 0 60px;
+}
+
+span {
+    width: 100%;
+    height: 2px;
+    border-top: 3px dashed white;
+    background-color: aliceblue;
+}
+
+hr {
+    color: aliceblue;
+}
+
+
+/*--------------deuxieme et 4eme div---------------------*/
+
+#help .div2,
+#help .div4 {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    padding-right: 40px;
+}
+
+#help .div2 img,
+#help .div4 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    transform: matrix3d(-30deg);
+    padding: 40px 0 0 0;
+    z-index: 90;
+}
+
+#help .div2 h3,
+#help .div4 h3 {
+    width: 900px;
+    height: 400px;
+    float: right;
+    font-family: unset;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 100px 0 0 60px;
+}
+
+
+/*------------fin div 2 et 4-------------------------------*/
+
+
+/*--------------troisieme div---------------------*/
+
+#help .div3 {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    padding-right: 40px;
+}
+
+#help .div3 img {
+    width: 500px;
+    height: 500px;
+    float: left;
+    transform: matrix3d(-30deg);
+    padding: 40px 0 0 0;
+    z-index: 10;
+}
+
+#help .div3 h3 {
+    width: 900px;
+    height: 400px;
+    float: right;
+    font-family: unset;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    padding: 100px 0 0 60px;
+}
+
+
+/*------------fin div 3-------------------------------*/

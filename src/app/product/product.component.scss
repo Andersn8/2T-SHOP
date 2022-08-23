@@ -1,0 +1,142 @@
+/*-------------fin style produits--------------*/
+
+
+/**---------------------------coté impression*/
+
+@media print {
+     :Host {
+        display: none;
+    }
+}
+
+
+/**---------------------------fin coté impression*/
+
+$bright-color: #fff;
+@mixin bottom {
+    position: absolute;
+    right: 0;
+    left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #80afcd;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.4;
+}
+
+.container {
+    border-radius: 2%;
+    background: url(/assets/img-product/908160.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+    .container__info {
+        @include bottom;
+        bottom: 20%;
+        display: flex;
+        align-items: flex-end;
+        padding: 15px 30px;
+        color: $bright-color;
+        span {
+            margin-right: 20px;
+        }
+        i {
+            margin-right: 10px;
+        }
+    }
+    .container__profile {
+        background-color: #e4f2fd;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        @include bottom();
+        bottom: 0;
+        img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            object-position: center;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        h2 {
+            color: #334454;
+            font-size: 1.2rem;
+        }
+        p {
+            color: #a1b2bc;
+            font-size: 0.8rem;
+        }
+        p b {
+            font-style: italic;
+        }
+    }
+}
+
+#grille {
+    padding: 100px 0 100px 20px;
+    width: 100%;
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 350px);
+    grid-gap: 20px;
+}
+
+
+/*<section id="product-init">
+    <h1>liste des produits</h1>
+    <form>
+        <label>SEARCH</label>
+        <input type="number" name="price" [(ngModel)]="pricemax" placeholder="veillez entrer un prix ......" class="bar">
+    </form>
+    <table>
+
+        <tr>
+            <th>title</th>
+            <th>price</th>
+            <th>quantity</th>
+            <th>like</th>
+        </tr>
+        <tbody *ngFor="let product of productlist;let i = index">
+            <!--<tr *ngIf="product.price< pricemax">-->
+
+            <td>{{product.title}}</td>
+            <td>{{product.price}}</td>
+            <td>{{product.quantity}}</td>
+            <td>{{product.like}}</td>
+            <td><button class="btn-warning" [disabled]="product.quantity==0" (click)=" buyproduct(i)"> buy</button></td>
+            <td><button class="btn-succes" (click)=" likeproduct(i)">like</button></td>
+        </tbody>
+    </table>
+
+</section>
+
+    this.productlist = [
+      {id:1,title:'T-shirt1',price:18,quantity:0,like:0},
+      {id:2,title:'T-shirt2',price:8,quantity:7,like:3},
+      {id:3,title:'T-shirt1',price:1,quantity:6,like:1},
+      {id:4,title:'T-shirt1',price:20,quantity:30,like:25},];
+  }
+  buyproduct(i : number){
+  this.productlist[i].quantity-- ;
+
+  }
+  likeproduct(i: number){
+    this.productlist[i].like ++;
+
+*/

@@ -1,0 +1,254 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#two-part h2 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Rubik Dirt', cursive;
+    margin-left: 100px;
+    color: orangered;
+    text-align: center;
+    background-color: rgb(190, 190, 190);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#two-part p {
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Rubik Dirt', cursive;
+    margin-top: 50px;
+    margin-left: 120px;
+}
+
+#two-part .position {
+    margin-top: 100px;
+}
+
+#two-part .position img {
+    height: 400px;
+    width: 400px;
+    padding: 130px 0 0 100px;
+}
+
+#two-part .position .pre1 {
+    height: 600px;
+    width: 500px;
+    box-shadow: 3px 5px 5px gray;
+    border: 1px solid gray;
+    position: relative;
+    top: 100px;
+    left: 200px;
+    z-index: 60;
+    border-top: 10px solid #000;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 30%;
+    background-color: rgb(219, 219, 219);
+}
+
+#two-part .position .pre2 {
+    height: 600px;
+    width: 500px;
+    box-shadow: 3px 5px 5px gray;
+    border: 1px solid rgb(219, 219, 219);
+    background-color: rgb(219, 219, 219);
+    border-right: 9px solid #000;
+    position: relative;
+    bottom: 300px;
+    left: 580px;
+    z-index: 10;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 30%;
+    border-left: none;
+}
+
+#two-part .position .mention span {
+    color: orangered;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+#two-part .position .mention p {
+    text-decoration: underline;
+}
+
+#two-part .position .mention .material-icons-all {
+    padding-left: 200px;
+    display: flex;
+    cursor: pointer;
+    color: orange;
+}
+
+#two-part .position .mention {
+    margin-bottom: 100px;
+}
+
+.couleur {
+    color: rgb(107, 107, 107);
+}
+
+#third {
+    width: 90%;
+    height: 600px;
+}
+
+
+/*--------------------part3*/
+
+#part3 {
+    background-color: #202020ec;
+    padding-left: 100px;
+    width: 100%;
+    height: auto;
+}
+
+#part3 .part-des h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Rubik Dirt', cursive;
+    color: orangered;
+    padding-left: none;
+}
+
+#part3 .part-desa {
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+    width: 600px;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+}
+
+#part3 .part-des p {
+    padding-top: 70px;
+    display: block;
+    font-size: 30px;
+    width: 80%;
+    font-family: 'Rubik Dirt', cursive;
+    color: rgba(0, 0, 0, 0.733);
+}
+
+
+/*-------------------------------------------*/
+
+
+/** brand **/
+
+.title-contact h2 {
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 50px;
+    padding: 20px 0 0 30px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.title-contact {
+    width: 500px;
+    height: 100px;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+    background-color: #ff6804;
+    z-index: 10;
+    position: relative;
+    top: 25px;
+}
+
+
+/** end brand **/
+
+
+/** contact **/
+
+.contact {
+    background: #ff6804;
+    border-radius: 3%;
+}
+
+.titlepage {
+    padding-bottom: 60px;
+}
+
+.titlepage h2 {
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.contact .main_form {
+    background: #fff;
+    box-shadow: rgb(187, 187, 187) 0px 0px 19px 1px;
+    padding: 40px;
+}
+
+.form-control {
+    border: #ff5e00 solid 4px;
+    border-radius: inherit;
+    margin-bottom: 30px;
+    padding: 13px 20px;
+    font-family: poppins;
+}
+
+.form-control:focus {
+    box-shadow: inherit;
+    border: #ff5e00 solid 4px !important;
+}
+
+.textarea {
+    font-family: 'Rubik Dirt', cursive;
+    border: #ff5100 solid 2px;
+    margin-bottom: 30px;
+    padding: 13px 20px;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.send {
+    font-family: 'Rubik Dirt', cursive;
+    max-width: 212px;
+    margin: 0 auto;
+    display: block;
+    background: #000;
+    color: #fff;
+    padding: 12px 0px;
+    width: 100%;
+    font-size: 17px;
+    border-radius: 3%;
+    transition: 0.7s ease-in-out;
+}
+
+.send:hover {
+    background: #ff5e00;
+    border-radius: 3%;
+    transition: 0.5s ease-in-out;
+}
+
+#part3 .conteneur {
+    max-width: 100%;
+    width: 80%;
+    position: relative;
+    height: 600px;
+}
+
+#part3 .conteneur .vid {
+    margin: 50px 0 0 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    border-radius: 6%;
+}
+
+video {
+    border-radius: 5%;
+    border: 4px solid white;
+    box-shadow: 4px 5px 10px white;
+}
+
+
+/** end contact **/

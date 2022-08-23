@@ -1,0 +1,120 @@
+<div>
+    <section id="panier">
+        <div class="logo-menu">
+            <img [src]="img_panier" alt="">
+        </div>
+    </section>
+    <section id="bollot">
+        <div class="menu-princip">
+            <div class="menu-princip-a">
+                <h1>2T-SH<span style="color: orangered;">O</span>P</h1>
+                <a href="" [routerLink]="['']"> <img [src]="im1" alt="" class="img1"></a>
+            </div>
+            <div class="menu-princip-b">
+                <ul>
+
+                    <span class="material-icons .menu-static">{{"shopping_cart"}}</span>
+                    <div class="bert">
+                        <li><a href="">announcemet</a></li>
+                    </div>
+                    <span class="material-icons .menu-static">{{"loyalty"}}</span>
+                    <div class="bert">
+                        <li><a href="" [routerLink]="['categories']">category</a></li>
+                    </div>
+                    <span class="material-icons .menu-static">{{"room_service"}}</span>
+                    <div class="bert">
+                        <li> <a href="" [routerLink]="['/helper']">Help</a></li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+        <div class="scroll-line"></div>
+    </section>
+
+    <div class="logo-menu" (click)="gogo()">
+        <span class="material-icons icon-menu">{{"menu"}}</span>
+    </div>
+    <div class="menu">
+        <ul>
+
+            <li>
+                <span class="material-icons .menu-dynamique">{{"home"}}</span><a href="#" [routerLink]="['home']">home</a>
+            </li>
+
+            <li>
+                <span class="material-icons .menu-dynamique">{{"business_center"}}</span><a href="#">about-us</a>
+            </li>
+
+            <li>
+                <span class="material-icons .menu-dynamique">{{"laptop_windows"}}</span> <a href="#">contact</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="carousel">
+    <app-carousel></app-carousel>
+</div><br><br><br><br><br><br><br>
+<router-outlet></router-outlet>
+<div class="router">
+</div>
+<div>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h1>2T-SH<span style="color: orangered;">O</span>P</h1><img class="logo1" src="../assets/img-site/bg-img/pngegg.png" alt="#" />
+                        <ul class="social_icon">
+                            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+                            <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h3>About Us</h3>
+                        <ul class="about_us">
+                            <li>dolor sit amet, consectetur<br> magna aliqua. Ut enim ad <br>minim veniam, <br> quisdotempor incididunt r</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <h3>Contact Us</h3>
+                        <ul class="conta">
+                            <li>dolor sit amet,<br> consectetur <br>magna aliqua.<br> quisdotempor <br>incididunt ut e </li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6">
+                        <form class="bottom_form">
+                            <h3>Newsletter</h3>
+                            <input class="enter" placeholder="Enter your email" type="text" name="Enter your email">
+                            <button class="sub_btn">subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>© 2022 All Rights Reserved. Design by<a href="https://2Tcorp.online/"> 2TCORP HOME</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script>
+        //capture scroll any percentage
+        $(window).scroll(function() {
+            var wintop = $(window).scrollTop(),
+                docheight =
+
+                $(document).height(),
+                winheight = $(window).height();
+            var scrolled = (wintop / (docheight - winheight)) * 100;
+
+            $('.scroll-line').css('width', (scrolled + '%'));
+        });
+    </script>
+</div>
