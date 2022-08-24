@@ -45,46 +45,48 @@ body {
     height: 500px;
     position: relative;
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
-    .container__info {
-        @include bottom;
-        bottom: 20%;
-        display: flex;
-        align-items: flex-end;
-        padding: 15px 30px;
-        color: $bright-color;
-        span {
-            margin-right: 20px;
-        }
-        i {
-            margin-right: 10px;
-        }
+}
+
+.container__info {
+    @include bottom;
+    bottom: 20%;
+    display: flex;
+    align-items: flex-end;
+    padding: 15px 30px;
+    color: $bright-color;
+    span {
+        margin-right: 20px;
     }
-    .container__profile {
-        background-color: #e4f2fd;
-        display: flex;
-        align-items: center;
-        padding: 20px;
-        @include bottom();
-        bottom: 0;
-        img {
-            width: 60px;
-            height: 60px;
-            border-radius: 50%;
-            object-position: center;
-            object-fit: cover;
-            margin-right: 10px;
-        }
-        h2 {
-            color: #334454;
-            font-size: 1.2rem;
-        }
-        p {
-            color: #a1b2bc;
-            font-size: 0.8rem;
-        }
-        p b {
-            font-style: italic;
-        }
+    i {
+        margin-right: 10px;
+    }
+}
+
+.container__profile {
+    background-color: #e4f2fd;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    @include bottom();
+    bottom: 0;
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-position: center;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+    h2 {
+        color: #334454;
+        font-size: 1.2rem;
+    }
+    p {
+        color: #a1b2bc;
+        font-size: 0.8rem;
+    }
+    p b {
+        font-style: italic;
     }
 }
 
@@ -95,6 +97,186 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fill, 350px);
     grid-gap: 20px;
+}
+
+.container1 {
+    border-radius: 2%;
+    background: url(/assets/img-product/160244.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container2 {
+    border-radius: 2%;
+    background: url(/assets/img-product/gettyimages-91690102-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container3 {
+    border-radius: 2%;
+    background: url(/assets/img-product/598722.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container4 {
+    border-radius: 2%;
+    background: url(/assets/img-product/458112.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container5 {
+    border-radius: 2%;
+    background: url(/assets/img-product/32038.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container6 {
+    border-radius: 2%;
+    background: url(/assets/img-product/383259.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container7 {
+    border-radius: 2%;
+    background: url(/assets/img-product/gettyimages-185330131-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container8 {
+    border-radius: 2%;
+    background: url(/assets/img-product/gettyimages-1370776612-2048x2048.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container9 {
+    border-radius: 2%;
+    background: url(/assets/img-product/549198.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container10 {
+    border-radius: 2%;
+    background: url(/assets/img-product/407147.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container11 {
+    border-radius: 2%;
+    background: url(/assets/img-product/75406.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container12 {
+    border-radius: 2%;
+    background: url(/assets/img-product/407147.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container13 {
+    border-radius: 2%;
+    background: url(/assets/img-product/75406.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container14 {
+    border-radius: 2%;
+    background: url(/assets/img-product/407147.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
+}
+
+.container15 {
+    border-radius: 2%;
+    background: url(/assets/img-product/75406.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 350px;
+    height: 500px;
+    position: relative;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.315);
 }
 
 

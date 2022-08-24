@@ -36,8 +36,7 @@ import { ProductoutilsComponent } from './productoutils/productoutils.component'
       {path: 'helper' , component:HelperComponent},
       {path: 'carousel' , component:CarouselComponent},
       {path: 'categories' , component:CategoriesComponent},
-      {path: '' , component:HomeComponent, pathMatch : 'full'},
-      {path: '**' , component:HomeComponent, pathMatch : 'full'},
+     
       {path:'product', component:ProductComponent},
       {path:'cars', component:ProductcarComponent},
       {path:'food', component:ProductfoodComponent},
