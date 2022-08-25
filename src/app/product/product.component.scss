@@ -1,4 +1,40 @@
-/*-------------fin style produits--------------*/
+/*------------- style navbar--------------*/
+
+nav {
+    position: absolute;
+    top: 0px;
+    bottom: 25px;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    background-color: orangered;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 36%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: unset;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    transition: 1s;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 80px;
+}
 
 
 /**---------------------------coté impression*/
@@ -233,7 +269,7 @@ body {
 
 .container12 {
     border-radius: 2%;
-    background: url(/assets/img-product/407147.jpg);
+    background: url(/assets/img-product/369063.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -245,7 +281,7 @@ body {
 
 .container13 {
     border-radius: 2%;
-    background: url(/assets/img-product/75406.jpg);
+    background: url(/assets/img-product/393537.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -257,7 +293,7 @@ body {
 
 .container14 {
     border-radius: 2%;
-    background: url(/assets/img-product/407147.jpg);
+    background: url(/assets/img-product/gettyimages-185330131-2048x2048.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -269,7 +305,7 @@ body {
 
 .container15 {
     border-radius: 2%;
-    background: url(/assets/img-product/75406.jpg);
+    background: url(/assets/img-product/bebe.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

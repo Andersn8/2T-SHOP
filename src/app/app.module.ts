@@ -36,11 +36,13 @@ import { ProductoutilsComponent } from './productoutils/productoutils.component'
       {path: 'helper' , component:HelperComponent},
       {path: 'carousel' , component:CarouselComponent},
       {path: 'categories' , component:CategoriesComponent},
-     
-      {path:'product', component:ProductComponent},
+      
+      {path:'products', component:ProductComponent},
       {path:'cars', component:ProductcarComponent},
-      {path:'food', component:ProductfoodComponent},
-      {path:'outils', component:ProductoutilsComponent}
+      {path:'foods', component:ProductfoodComponent},
+      {path:'tools', component:ProductoutilsComponent},
+      {path:'', component:HomeComponent, pathMatch:'full'},
+       {path:'**', component:HomeComponent,pathMatch:'full'},
     ]),
     NgbModule
 
