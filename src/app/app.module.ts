@@ -3,48 +3,59 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HelperComponent } from './helper/helper.component';
-import { CarouselComponent } from './carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { PanierComponent } from './panier/panier.component';
-import { CategoriesComponent } from './categories/categories.component';
-import { HomeComponent } from './home/home.component';
-import { ProductComponent } from './product/product.component';
-import { ProductcarComponent } from './productcar/productcar.component';
 import { FormsModule } from '@angular/forms';
-import { ProductfoodComponent } from './productfood/productfood.component';
-import { ProductoutilsComponent } from './productoutils/productoutils.component';
+import { NgxPrintModule } from 'ngx-print';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatSliderModule } from '@angular/material/slider';
+import {MatTabsModule} from '@angular/material/tabs';
+import { CategoriesComponent } from './parts/categories/categories.component';
+import { HelperComponent } from './parts/helper/helper.component';
+import { HomeComponent } from './parts/home/home.component';
+import { PanierComponent } from './parts/panier/panier.component';
+import { ProductComponent } from './products/product/product.component';
+import { ProductcarComponent } from './products/productcar/productcar.component';
+import { ProductfoodComponent } from './products/productfood/productfood.component';
+import { ProductoutilsComponent } from './products/productoutils/productoutils.component';
+import { CarouselComponent } from './parts/carousel/carousel.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent, 
     HelperComponent,
     CarouselComponent,
     PanierComponent,
     CategoriesComponent,
     ProductComponent,
     ProductcarComponent,
- 
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
+    NgxPrintModule,
     FormsModule,
+    MatSliderModule,
+    MatTabsModule,
+ 
     RouterModule.forRoot([
-      {path: 'home' , component:HomeComponent},
-      {path: 'helper' , component:HelperComponent},
-      {path: 'carousel' , component:CarouselComponent},
-      {path: 'categories' , component:CategoriesComponent},
-      
-      {path:'products', component:ProductComponent},
       {path:'cars', component:ProductcarComponent},
       {path:'foods', component:ProductfoodComponent},
-      {path:'tools', component:ProductoutilsComponent},
+      {path:'tools', component:ProductoutilsComponent}, 
+
+      {path: 'home' , component:HomeComponent},
+
+      {path: 'helper' , component:HelperComponent},
+      
+      {path: 'carousel' , component:CarouselComponent},
+      {path: 'categories' , component:CategoriesComponent},
+      {path:'products', component:ProductComponent},
+ 
       {path:'', component:HomeComponent, pathMatch:'full'},
        {path:'**', component:HomeComponent,pathMatch:'full'},
     ]),
-    NgbModule
+    NgbModule,
+    BrowserAnimationsModule
 
   ],
   providers: [],

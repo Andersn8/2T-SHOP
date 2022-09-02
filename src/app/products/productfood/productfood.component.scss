@@ -1,3 +1,39 @@
+nav {
+    position: absolute;
+    top: 0px;
+    bottom: 25px;
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    background-color: orangered;
+    border-top-left-radius: 6%;
+    border-top-right-radius: 36%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 27px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: unset;
+    transition: 1s;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 32px;
+    transition: 1s;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding-top: 30px;
+    padding-left: 80px;
+}
+
 $bright-color: #fff;
 @mixin bottom {
     position: absolute;
@@ -23,7 +59,7 @@ body {
 
 .container {
     border-radius: 2%;
-    background: url(/assets/img-product/32038.jpg);
+    background: url(/assets/img-product/908160.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -87,7 +123,7 @@ body {
 
 .container1 {
     border-radius: 2%;
-    background: url(/assets/img-product/gettyimages-1139558910-2048x2048.jpg);
+    background: url(/assets/img-product/369063.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -99,7 +135,7 @@ body {
 
 .container2 {
     border-radius: 2%;
-    background: url(/assets/img-product/bebe.jpg);
+    background: url(/assets/img-product/383259.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -111,7 +147,7 @@ body {
 
 .container3 {
     border-radius: 2%;
-    background: url(/assets/img-product/gettyimages-168362728-2048x2048.jpg);
+    background: url(/assets/img-product/405706.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -123,7 +159,7 @@ body {
 
 .container4 {
     border-radius: 2%;
-    background: url(/assets/img-product/gettyimages-1370776612-2048x2048.jpg);
+    background: url(/assets/img-product/407147.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +171,7 @@ body {
 
 .container5 {
     border-radius: 2%;
-    background: url(/assets/img-product/gettyimages-185330131-2048x2048.jpg);
+    background: url(/assets/img-product/Finished-photo-1-of-1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -147,7 +183,7 @@ body {
 
 .container6 {
     border-radius: 2%;
-    background: url(/assets/img-product/gettyimages-91690102-2048x2048.jpg);
+    background: url(/assets/img-product/poissons-frits.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -159,7 +195,7 @@ body {
 
 .container7 {
     border-radius: 2%;
-    background: url(/assets/img-product/baba.jpg);
+    background: url(/assets/img-product/397309.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

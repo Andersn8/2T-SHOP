@@ -1,4 +1,15 @@
 @import "~material-icons/iconfont/material-icons.scss";
 @import url('https://fonts.googleapis.com/css2? family= Rubik+Dirt & display=swap');
+
 /* Importing Bootstrap SCSS file. */
+
 @import '~bootstrap/scss/bootstrap';
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Rubik Dirt', cursive;
+}
